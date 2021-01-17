@@ -5,10 +5,10 @@
 #
 # Copyright (C) 2020 KFERMercer
 #
-name: OpenWrt-CI
+name: Build HomeLede
 
 on:
-  workflow_dispatch:
+  repository_dispatch:
   schedule:
     - cron: * * * * *
   release:
